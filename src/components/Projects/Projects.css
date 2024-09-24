@@ -1,0 +1,70 @@
+/* Projects.css */
+
+/* Container for the accordion items */
+.accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Individual accordion item */
+  .accordion-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    padding: 16px;
+  }
+  
+  /* Header for the accordion with title and toggle button */
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .accordion-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .toggle-btn {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Content section for the expanded accordion item */
+  .accordion-content {
+    margin-top: 16px;
+    text-align: left;
+  }
+  
+  .accordion-content p {
+    margin-bottom: 8px;
+  }
+  
+  .accordion-content ul {
+    list-style: disc inside;
+    padding-left: 20px;
+  }
+  
+  .accordion-content ul li {
+    margin-bottom: 4px;
+  }
+  
+  .github-link {
+    display: block;
+    margin-top: 8px;
+    color: #0366d6;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .github-link:hover {
+    text-decoration: underline;
+  }
+  

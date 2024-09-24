@@ -1,0 +1,57 @@
+#skills {
+  padding: 3rem 0;
+  background-color: #f3f4f6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+h2 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.icon-animate {
+  transition: transform 0.2s;
+}
+
+.icon-animate:hover {
+  transform: scale(1.2);
+}
+
+.group:hover .tooltip-content {
+  display: block;
+}
+
+.tooltip-content {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+  font-size: 1.2rem;
+}
+
+.tooltip-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.tooltip-item:last-child {
+  margin-bottom: 0;
+}
+
+.tooltip-item p {
+  margin-left: 0.5rem;
+  font-size: 0.875rem;
+}

@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Prevent body overflow */
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* Profile photo styles */
+.profile-photo {
+  border-radius: 50%; /* Makes the photo round */
+  transition: transform 0.6s ease; /* Smooth transition for scaling */
+}
+
+/* Hover effect to grow the profile photo smoothly */
+.profile-photo:hover {
+  transform: scale(1.2); /* Increase scale for hover effect */
+}
