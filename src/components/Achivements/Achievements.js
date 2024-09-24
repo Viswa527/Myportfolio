@@ -2,32 +2,27 @@ import React from 'react'
 import { Carousel } from 'react-responsive-carousel'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 // Import images
-import volleyballImg from '../../assets/volleyball.jpg'
+import cricketImg from '../../assets/cricket.jpg'
 import hackathonImg from '../../assets/hackathon1.png'
-import secretaryImg from '../../assets/volleyball.jpg'
 import chessImg from '../../assets/chess.png'
 
 const achievements = [
   {
-    title: 'Inter-College Volleyball Competition Winner',
-    description: 'Won the inter-college volleyball competition.',
-    image: volleyballImg,
+    title: 'College Cricket Tournament Winner',
+    description: 'College level tornament at district level.',
+    image: cricketImg,
   },
   {
-    title: 'Hackathon Winner at JNTUH',
-    description: 'Won the hackathon organized at JNTUH.',
+      title: 'Chess Champion at Age 15',
+      description: 'Became a chess champion at the age of 15.',
+      image: chessImg,
+  },
+  {
+    title: 'Hackathon Winner at JNTUK',
+    description: 'Won the hackathon organized at JNTUK.',
     image: hackathonImg,
   },
-  {
-    title: 'Elected Secretary of the Department',
-    description: 'Elected as the secretary of the department.',
-    image: secretaryImg,
-  },
-  {
-    title: 'Chess Champion at Age 8',
-    description: 'Became a chess champion at the age of 8.',
-    image: chessImg,
-  },
+
 ]
 
 const Achievements = () => {
