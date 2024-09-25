@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e77072e5.css",
+    "main.js": "/static/js/main.26ae796a.js",
+    "static/media/chess.png": "/static/media/chess.dcdc1d25138d2ba66d9d.png",
+    "static/media/background.jpg": "/static/media/background.376633e5265401e82ee0.jpg",
+    "static/media/developer.jpg": "/static/media/developer.c235861c1d6538650860.jpg",
+    "static/media/hackathon1.png": "/static/media/hackathon1.91226a95d5d77f35cfc9.png",
+    "static/media/github-square.png": "/static/media/github-square.ff2648078e819f6a9666.png",
+    "static/media/avizva.png": "/static/media/avizva.e931eb86e3e62b11974c.png",
+    "static/media/rakuten.png": "/static/media/rakuten.5b73fd83edfb166673df.png",
+    "static/media/merkle.svg": "/static/media/merkle.0146bd92c8d85c496478209b8e479a79.svg",
+    "index.html": "/index.html",
+    "main.e77072e5.css.map": "/static/css/main.e77072e5.css.map",
+    "main.26ae796a.js.map": "/static/js/main.26ae796a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e77072e5.css",
+    "static/js/main.26ae796a.js"
+  ]
+}
