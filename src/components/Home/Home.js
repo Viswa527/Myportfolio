@@ -2,6 +2,7 @@ import React from 'react';
 import background from '../../assets/background.jpg';
 import developer from '../../assets/developer.jpg';
 import linkedinLogo from '../../assets/linked-in-logo-svg.png';
+import hackerranklogo from '../../assets/hacker-rank.png';
 import githubLogo from '../../assets/github-square.png';
 import {userName, userDescription, userRoles} from '../../Static/static';
 import './Home.css';
@@ -26,12 +27,16 @@ const Home = () => {
           Hello, I'm {userName}
         </h1>
         <div className="mt-4 flex justify-center space-x-4">
-          <a href="https://www.linkedin.com/in/viswarupa-chari-kammari-4416aa16b/" target="_blank" rel="noopener noreferrer">
-            <img src={linkedinLogo} alt="LinkedIn" className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-          </a>
-          <a href="https://github.com/vr-23" target="_blank" rel="noopener noreferrer">
+
+          <a href="https://github.com/Viswa527" target="_blank" rel="noopener noreferrer">
             <img src={githubLogo} alt="GitHub" className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
           </a>
+          <a href="https://www.linkedin.com/in/viswarupa-chari-kammari-4416aa16b/" target="_blank" rel="noopener noreferrer">
+                      <img src={linkedinLogo} alt="LinkedIn" className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
+                    </a>
+          <a href="https://www.hackerrank.com/profile/viswarupaachari1" target="_blank" rel="noopener noreferrer">
+             <img src={hackerranklogo} alt="GitHub" className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
+           </a>
         </div>
         <p className="mt-4 text-xl sm:text-2xl md:text-2xl">{userRoles}</p>
         <div className="mt-4 md:mt-8">
