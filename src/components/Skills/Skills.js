@@ -1,18 +1,13 @@
 import React from 'react';
-import 'devicon/devicon.min.css'; // Ensure this is correctly imported
+import 'devicon/devicon.min.css'; 
 import './skills.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faCloud,  // AWS
-  faDocker,
-  faJira,
+  faCloud,
   faCode,
   faDatabase,
   faMicrochip,
-  faServer, // For SFTP
-  faTools,  // For general tools
-  faBook   
-} from '@fortawesome/free-solid-svg-icons'; // Solid icons
+  faTools} from '@fortawesome/free-solid-svg-icons'; 
 import MicroservicesIcon from '../../assets/mico1.png'; 
 import SnowflakeIcon from '../../assets/snowflake.png';
 import EclipseIcon from '../../assets/eclipse.png';
