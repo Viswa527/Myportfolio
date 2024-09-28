@@ -1,6 +1,11 @@
 /* Certifications.css */
-
-#certifications {
+.anchor {
+  display: block;
+  height: 45px;
+  margin-top: -45px;
+  visibility: hidden;
+}
+.certifications-container {
   background-color: #f3f4f6;
 }
 

@@ -21,7 +21,7 @@ const Navbar = () => {
             isOpen ? 'block' : 'hidden'
           } md:flex md:items-center w-full md:w-auto`}
         >
-          <div className="flex flex-col md:flex-row md:ml-auto">
+          <div className="flex flex-col md:flex-row md:ml-auto " >
             <a href="#home" className="px-4 py-2 md:py-0">
               Home
             </a>

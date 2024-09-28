@@ -1,5 +1,13 @@
 /* Projects.css */
-
+.anchor {
+  display: block;
+  height: 45px;
+  margin-top: -45px;
+  visibility: hidden;
+}
+.projects-container {
+  background-color: #f3f4f6;
+}
 /* Container for the accordion items */
 .accordion {
     display: flex;

@@ -7,6 +7,8 @@ import { education, education_text, gpa_text } from '../../Static/static';
 
 const Education = () => {
   return (
+    <>
+     <span class="anchor" id="education"></span>
     <section id="education" className="py-12 bg-gray-100">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl font-bold mb-8">{education_text}</h2>
@@ -29,6 +31,7 @@ const Education = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 

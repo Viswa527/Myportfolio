@@ -9,6 +9,13 @@
       background-position: 0% 50%;
     }
   }
+
+.anchor {
+  display: block;
+  height: 45px;
+  margin-top: -45px;
+  visibility: hidden;
+}
   
   .education-item {
     position: relative;

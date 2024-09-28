@@ -1,7 +1,13 @@
 /* Experience.css */
 
-#experience {
+.experience-container {
   background-color: #f3f4f6;
+}
+.anchor {
+  display: block;
+  height: 45px;
+  margin-top: -45px;
+  visibility: hidden;
 }
 
 .experience-card {

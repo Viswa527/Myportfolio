@@ -10,6 +10,8 @@ const Projects = () => {
   };
 
   return (
+    <>
+         <span class="anchor" id="projects"></span>
     <section id="projects" className="py-12 bg-gray-100">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl font-bold mb-8">Projects</h2>
@@ -37,6 +39,7 @@ const Projects = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 

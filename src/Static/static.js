@@ -1,4 +1,4 @@
-import rakutenLogo from "../assets/rakuten.png";
+import rakutenLogo from "../assets/rakuten123.png";
 import avizvaLogo from "../assets/avizva.png";
 import merkleLogo from "../assets/merkle.svg";
 
@@ -51,23 +51,16 @@ export const education = [
 
 export const experiences = [
   {
-    company: "Rakuten Symphony",
-    location: "Indore, M.P , India",
-    role: "Java Developer",
-    duration: "Sep 2020 - Aug 2022",
-    image: rakutenLogo,
+    company: "Merkle Inspire",
+    location: "Bangalore, Karnataka, India",
+    role: "Senior Software Engineer",
+    duration: "Sep 2023 - Present",
+    image: merkleLogo,
     responsibilities: [
-      `Zadara is on cloud storage system which can store files using AWS interfaces and have many
-       functionalities like create a bucket, upload files, retrieve, delete , retention and so on. To maintain all the data for
-       the user.Access on-demand, enterprise-grade compute, networking and storage designed to handle any workload,
-       anywhere – on-premises, hybrid, multi-cloud and at the edge.`,
-       `Virtual-Inventory is a software system that can be used to store the virtual data like mobile number
-        information, sim card information and the bank details. It will maintain the allocation of the numbers and sim
-        cards.Secured and instant access to network inventory data from mobile device improves the way of
-        executing site surveys and keeping physical site information data up to date`,
-        `We have developed a dashboard which represents the data based on the analysis on project.we have used
-         power BI to achieve some table representation makeing the tables and designs on custom based.And also implemented
-         apache Nifi for automating the data flow from raw db to filtered db in snowflake.`
+      `Data will be optimized and provide the results based on the user requirement,We have developed the UI for
+       this story for selecting the data from the raw huge data to make the client cost cut and perform more effiecent.`,
+       `For optimization we have gone through lot of tools for optimiing the data like JOptimizer,pulp,pymo,pyomo tools for
+       optimizing and fetch data.`,
     ],
   },
   {
@@ -86,17 +79,25 @@ export const experiences = [
        experience for users.`,
     ],
   },
+  
   {
-    company: "Merkle Inspire",
-    location: "Bangalore, Karnataka, India",
-    role: "Senior Software Engineer",
-    duration: "Sep 2023 - Present",
-    image: merkleLogo,
+    company: "Rakuten Symphony",
+    location: "Indore, M.P , India",
+    role: "Java Developer",
+    duration: "Sep 2020 - Aug 2022",
+    image: rakutenLogo,
     responsibilities: [
-      `Data will be optimized and provide the results based on the user requirement,We have developed the UI for
-       this story for selecting the data from the raw huge data to make the client cost cut and perform more effiecent.`,
-       `For optimization we have gone through lot of tools for optimiing the data like JOptimizer,pulp,pymo,pyomo tools for
-       optimizing and fetch data.`,
+      `Zadara is on cloud storage system which can store files using AWS interfaces and have many
+       functionalities like create a bucket, upload files, retrieve, delete , retention and so on. To maintain all the data for
+       the user.Access on-demand, enterprise-grade compute, networking and storage designed to handle any workload,
+       anywhere – on-premises, hybrid, multi-cloud and at the edge.`,
+       `Virtual-Inventory is a software system that can be used to store the virtual data like mobile number
+        information, sim card information and the bank details. It will maintain the allocation of the numbers and sim
+        cards.Secured and instant access to network inventory data from mobile device improves the way of
+        executing site surveys and keeping physical site information data up to date`,
+        `We have developed a dashboard which represents the data based on the analysis on project.we have used
+         power BI to achieve some table representation makeing the tables and designs on custom based.And also implemented
+         apache Nifi for automating the data flow from raw db to filtered db in snowflake.`
     ],
   },
 ];
